@@ -1,0 +1,19 @@
+{
+  "name": "secbinary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.mjs",
+  "bin": "index.mjs",
+  "scripts": {
+    "start": "node index.mjs",
+    "clean": "clean.bat",
+    "mkbin": "mkbin.bat",
+    "mksec": "mksec.bat"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "glob": "^10.2.1"
+  }
+}
