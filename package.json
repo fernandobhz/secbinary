@@ -1,6 +1,6 @@
 {
-  "name": "secfile",
-  "version": "2.0.0",
+  "name": "secbinary",
+  "version": "1.0.1",
   "description": "",
   "main": "index.mjs",
   "bin": "index.mjs",
