@@ -1,2 +1,2 @@
 rm *.bin
-rm *.secfile
+rm *.secbin

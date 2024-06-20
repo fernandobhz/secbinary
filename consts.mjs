@@ -1,1 +1,1 @@
-export const encryptedFileExtension = 'secfile';
+export const encryptedFileExtension = 'secbin';

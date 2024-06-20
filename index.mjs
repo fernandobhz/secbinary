@@ -22,9 +22,9 @@ const updateLog = (...args) => {
 };
 
 const { version } = JSON.parse(await readFile(new URL("./package.json", import.meta.url)));
-const usageInstructions = "Usage:\n\tnpx secfile <encrypt|decrypt|auto> <inputPattern> <password|ask> [delete] [overwrite] [move=new-path]";
+const usageInstructions = "Usage:\n\tnpx secbin <encrypt|decrypt|auto> <inputPattern> <password|ask> [delete] [overwrite] [move=new-path]";
 
-printLog(`SecFile version: ${version}\n\n${usageInstructions}\n`);
+printLog(`SecBin version: ${version}\n\n${usageInstructions}\n`);
 
 let [executionMode, inputPattern, askPasswordOrInputPassword, ...flags] = process.argv.slice(2);
 let password = askPasswordOrInputPassword;
