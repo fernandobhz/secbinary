@@ -1,6 +1,6 @@
 {
   "name": "secbinary",
-  "version": "1.2.0",
+  "version": "3.0.0",
   "description": "",
   "main": "index.mjs",
   "bin": "index.mjs",
@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "secbin": "^2.1.1"
+    "secbin": "^3.0.0"
   }
 }
