@@ -11,6 +11,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "secbin": "^2.0.0"
+    "secbin": "^2.1.1"
   }
 }
